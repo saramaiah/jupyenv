@@ -9,7 +9,7 @@
   ];
 
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
-  inputs.nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-24.11";
+  inputs.nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-25.05";
   inputs.nixpkgs-master.url = "github:nixos/nixpkgs/master";
   inputs.flake-compat.url = "github:edolstra/flake-compat";
   inputs.flake-compat.flake = false;
