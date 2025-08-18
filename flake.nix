@@ -17,7 +17,7 @@
   inputs.ihaskell.url = "github:ihaskell/ihaskell";
   inputs.ihaskell.inputs.flake-utils.follows = "flake-utils";
   inputs.ihaskell.inputs.nixpkgsMaster.follows = "nixpkgs-master";
-  inputs.ihaskell.inputs.nixpkgs24_11.follows = "nixpkgs-stable";
+  inputs.ihaskell.inputs.nixpkgs25_05.follows = "nixpkgs-stable";
   inputs.nix-dart.url = "github:djacu/nix-dart";
   inputs.nix-dart.inputs.nixpkgs.follows = "nixpkgs";
   inputs.nix-dart.inputs.flake-utils.follows = "flake-utils";
